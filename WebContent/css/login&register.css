@@ -1,0 +1,148 @@
+html,body {height: 100%; padding: 0; margin: 0; background-color: #000000;}
+* {
+	box-sizing: border-box;
+}
+
+.mainHolder 
+{
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+.textHolder
+{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background: inherit;
+	overflow: hidden;
+	position: absolute;
+	left: 38.6%;
+	top: 34.2%;
+	width: 400px;
+	height: 200px;
+	z-index: 1;
+}
+
+.textHolder::before
+{
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: inherit;
+	background-attachment: fixed;
+	filter: blur(4px);
+}
+
+.textHolder::after 
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.4);
+}
+
+p 
+{
+	z-index: 1;
+	color: white;
+	position: relative;
+	margin: 0;
+}
+
+.text 
+{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background: inherit;
+	overflow: hidden;
+	position: absolute;
+	left: 38.6%;
+	top: 36.2%;
+	width: 400px;
+	height: 200px;
+	z-index: 1;
+}
+
+/*弹窗*/
+#winpop
+{ 
+	width:350px; 
+	height:0px; 
+	position:absolute;
+	right:0;
+	bottom:0;
+	border:1px solid grey;
+	margin:0; 
+	padding:1px; 
+	overflow:hidden;
+	display:none; 
+	background:#3a3a3a;
+}  
+#winpop .title 
+{ 
+	width:100%; 
+	height:30px; 
+	line-height:200%; 
+	background:#002142; 
+	font-weight:bold; 
+	text-align:center; 
+	font-size:14px;
+	color:#3a3a3a;
+}  
+#winpop .con
+{ 
+	width:100%; 
+	height:360px; 
+	line-height:80px;
+	font-weight:bold; 
+	font-size:12px; 
+	color:#FF0000; 
+	text-decoration:underline; 
+	text-align:center;
+}
+#winpop .title .p
+{ 
+	color: write;
+}
+.pop-content-p
+{
+	z-index:1;
+	display:inline-block;
+	padding: 5px;
+	color: write;
+}
+.pop-content-p-alert
+{
+	z-index:1;
+	display:inline-block;
+	padding: 5px;
+	color: red;
+}
+.pop-content-a
+{
+	z-index:2;
+	text-decoration:none;
+	display:inline-block;
+	padding: 0px;
+	color: red;
+}
+.close 
+{ 
+	position:absolute; 
+	right:4px; 
+	top:-1px; 
+	color:#ff0000; 
+	cursor:pointer;
+	text-decoration:none;
+}

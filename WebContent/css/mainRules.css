@@ -1,0 +1,245 @@
+html,body {height: 100%; padding: 0; margin: 0;}
+.box{height: 100%; padding: 40px 0 0; box-sizing: border-box; position: relative;background: linear-gradient(60deg,#BBD2C5, #536976);}
+
+/*头部*/
+.head
+{
+	background: linear-gradient(360deg,#BBD2C5, #536976,#292E49);
+	height: 4.6%; position: absolute; top: 0 ; left: 0 ; width: 100%;
+	border-width: 0 0 1px 0;
+	border-style: solid;
+	border-color: black;
+	z-index: 2;
+}
+.logo
+{
+	position: absolute;top: 25%; left: 1.5%;
+}
+.logo-h
+{
+	
+}
+.userNameShow
+{
+	position: absolute;top: 25%; right: 5.2%;
+}
+.exitShow
+{
+	position: absolute;top: 25%; right: 1.5%
+}
+.head a
+{
+	text-decoration:none;
+	color: red;
+}
+.head a:hover,a:active
+{
+	background-color:grey;
+}
+
+/*导航栏*/
+.userNote
+{
+	background: linear-gradient(60deg,#BBD2C5, #536976);
+	width: 100%;
+	height: 4.6%;
+	display: block;
+}
+.userNote td
+{
+	padding: 6px;
+}
+.userNote td a
+{
+	padding-right: 15px;
+	color:#003264;
+	text-decoration:none;
+}
+.left
+{
+	display: inline-block;
+}
+.right
+{
+	display: inline-block;
+	position: absolute;
+	right: 0%;
+}
+.changeFileName
+{
+	font-size:10px;
+}
+
+/*内容*/
+.content
+{
+	position: absolute; top: 0% ; width: 100%; height: 95.4%;
+	background: linear-gradient(60deg,#BBD2C5, #536976);
+	z-index: 1;
+}
+.content-table
+{
+	position: absolute;
+	/* top: 1%; left: 5%; */
+	width: 100%; 
+	height: 100%; 
+	overflow:auto;
+	background: linear-gradient(60deg,#BBD2C5, #536976);
+}
+.content-table table
+{
+	margin:auto;
+	margin-top: 1%;
+}
+.content-table td
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 14.1px;
+	padding-right: 14.1px;
+}
+.content-table a
+{
+	color:greenyellow;
+	text-decoration:none;
+}
+.content-table .table-id
+{
+	width: 10%;
+}
+.content-table .table-classId
+{
+	width: 10%;
+}
+.content-table .table-className
+{
+	width: 10%;
+}
+.content-table .table-classTeacher
+{
+	width: 10%;
+}
+.content-table .table-classDep
+{
+	width: 10%;
+}
+.content-table .table-classOnline
+{
+	width: 10%;
+}
+.content-table .table-classOnline
+{
+	width: 10%;
+}
+.content-table .table-classPf
+{
+	width: 10%;
+}
+.content-table .table-classMothod
+{
+	width: 10%;
+}
+.content-table .table-change
+{
+	width: 10%;
+}
+}
+.content-table .table-delect
+{
+	width: 10%;
+}
+.content-table .table-delect-a
+{
+	color: #FF0000;
+}
+
+/*修改*/
+.float-cover-change
+{
+	background-color:rgba(255, 255, 255, 0.85); 
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0; left: 0;
+	display: none;
+}
+.float-cover-change .dirName-p-title
+{
+	display: inline;
+}
+.float-cover-change .dirName-p
+{
+	display: inline;
+}
+.float-cover-change .dirInput-p
+{
+	display: inline-block;
+	width: 300px;
+}
+.float-cover-change .window-float
+{
+	position: fixed;
+	top: 8%; left: 40%;
+}
+/*新建课程*/
+.float-cover-newStuc
+{
+	background-color:rgba(255, 255, 255, 0.85); 
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0; left: 0;
+	display: none;
+}
+.float-cover-newStuc .dirName-p-title
+{
+	display: inline;
+}
+.float-cover-newStuc .dirName-p
+{
+	display: inline;
+}
+.float-cover-newStuc .dirInput-p
+{
+	display: inline-block;
+	width: 300px;
+}
+.float-cover-newStuc .window-float
+{
+	position: fixed;
+	top: 8%; left: 40%;
+}
+/*新建管理员账号*/
+.float-cover-newAccount
+{
+	background-color:rgba(255, 255, 255, 0.85); 
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0; left: 0;
+	display: none;
+}
+.float-cover-newAccount .dirName-p-title
+{
+	display: inline;
+}
+.float-cover-newAccount .dirName-p
+{
+	display: inline;
+}
+.float-cover-newAccount .dirInput-p
+{
+	display: inline-block;
+	width: 300px;
+}
+.float-cover-newAccount .window-float
+{
+	position: fixed;
+	top: 8%; left: 40%;
+}
+
+/*搜索*/
+.search_p
+{
+	display: inline-block;
+}
