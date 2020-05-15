@@ -3,7 +3,10 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
 	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
-
+	
+	<listener>
+		<listener-class>listener.MyListener</listener-class>
+	</listener>
 	<servlet>
 		<servlet-name>do_account_login</servlet-name>
 		<servlet-class>servlet.do_account_login</servlet-class>
